@@ -1,0 +1,5 @@
+{
+  "api_url": "https://us-central1-serverless-pipeline-488416.cloudfunctions.net/upload-image",
+  "api_key_secret": "projects/288872845538/secrets/api-gateway-key"
+}
+
