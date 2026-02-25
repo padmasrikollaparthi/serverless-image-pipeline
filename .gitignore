@@ -11,8 +11,9 @@ terraform.tfstate.backup
 __pycache__/
 *.pyc
 
-# Secrets
+#Secrets
 *.json
+!submission.json
 
 # OS
 .DS_Store
