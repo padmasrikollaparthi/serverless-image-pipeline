@@ -15,7 +15,7 @@ def process_image(event, context):
     print(f"Processing file: {file_name} from bucket: {bucket_name}")
 
     # Only process image files (png, jpg, jpeg)
-    if not file_name.lower().endswith(('.png', '.jpg', '.jpeg')):
+    if not file_name.lower().endswith((".png", ".jpg", ".jpeg")):
         print(f"Skipped non-image file: {file_name}")
         return
 

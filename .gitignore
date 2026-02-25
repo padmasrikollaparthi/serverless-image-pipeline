@@ -1,20 +1,23 @@
 # Terraform
 .terraform/
-terraform.tfstate
-terraform.tfstate.backup
 *.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
 
-# Zip builds
+# Zips / build artifacts
 *.zip
 
-# Python
+# Python cache
 __pycache__/
 *.pyc
+
+# OS / Editor
+.DS_Store
+
+# Secrets (if any)
+.env
 
 #Secrets
 *.json
 !submission.json
-
-# OS
-.DS_Store
 
