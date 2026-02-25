@@ -70,7 +70,7 @@ serverless-pipeline/
 ├── test.txt
 ├── test-file.txt
 └── submission.json
-🔧 Technologies Used
+## Technologies Used
 
 Google Cloud Platform (GCP)
 
@@ -109,15 +109,15 @@ Receives events via Pub/Sub.
 
 Simulates file processing (metadata logging / processing logic).
 
-✅ 3. Logging / Notification Function (log-notification)
+3. Logging / Notification Function (log-notification)
 
 Triggered by Pub/Sub messages.
 
-4. gs event information to Cloud Logging.
+Logs event information to Cloud Logging.
 
 monstrates fan-out / multi-subscriber event processing.
 
-✅ 4. Infrastructure as Code (Terraform)
+ 4. Infrastructure as Code (Terraform)
 
 Created:
 
@@ -172,7 +172,7 @@ Background functions are private.
 
 Service accounts are managed by Terraform.
 
-🧠 What I Learned
+## What I Learned
 
 How to design event-driven serverless architectures
 
