@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+
+# Local files
+*.log
+*.sqlite3
+*.db
+
+# Virtual environments
+*.env/
+venv/
+.env
+
+# Google Cloud credentials / secrets
+*.json
+*.key
+
+# Zip files / uploads (optional, if you don't want to push large files)
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+terraform/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Git LFS (if using for large binaries)
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Logs and temporary files
+*.tmp
+*.swp
+
